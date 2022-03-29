@@ -4,13 +4,13 @@
   padding: 0px;
 }
 
-body {
+.container {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
   background-color: #0c2431;
   padding: 16px;
 }
@@ -98,4 +98,15 @@ body {
 
 .btn:hover {
   background-color: #d9886d;
+}
+
+.footer {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #e1dad2;
+  background-color: #0c2431;
+  font-size: 14px;
+  margin-top: auto;
 }
